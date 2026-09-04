@@ -122,22 +122,22 @@ export const Footer: React.FC = () => {
             {/* Column 4: Legal */}
             <div className="space-y-3">
               <h4 className="text-sm font-bold uppercase tracking-wider text-white">
-                Legal
+                Legal & Compliance
               </h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/privacy" className="hover:text-white transition-colors">
+                  <Link href="/zeneeaipay/privacy-policy" className="hover:text-white transition-colors">
                     Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/zeneeaipay/delete-account" className="hover:text-white transition-colors">
+                    Account Deletion
                   </Link>
                 </li>
                 <li>
                   <Link href="/terms" className="hover:text-white transition-colors">
                     Terms of Use
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/disclaimer" className="hover:text-white transition-colors">
-                    Disclaimer
                   </Link>
                 </li>
               </ul>
