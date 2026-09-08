@@ -33,6 +33,11 @@ export const metadata: Metadata = {
     'US F1 Visa',
     'Immigration Consultants',
   ],
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/favicon.ico',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: 'ZeneeAI Overseas — Premium Global Mobility & Visa Processing',
     description:

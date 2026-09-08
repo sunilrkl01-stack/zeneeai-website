@@ -39,6 +39,11 @@ export const metadata: Metadata = {
     description:
       'ZeneeAI Overseas and Technologies Private Limited builds intelligent digital products across AI, FinTech, mobility and enterprise technology.',
   },
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/favicon.ico',
+    apple: '/icon.png',
+  },
   robots: {
     index: true,
     follow: true,
