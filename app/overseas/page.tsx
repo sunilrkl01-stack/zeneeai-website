@@ -16,7 +16,7 @@ import { OverseasFooter } from '@/components/overseas/OverseasFooter';
 export const metadata: Metadata = {
   title: 'ZeneeAI Overseas | Global Mobility, Study Visas, Visit Visas, Test Prep & PR',
   description:
-    'ZeneeAI Overseas is a premier global visa & study abroad consultancy offering AI-driven university admissions, IELTS/PTE/GRE coaching, education loan assistance, visit visas, and permanent residency (PR) for USA, UK, Canada, Australia, Germany & Europe.',
+    'ZeneeAI Overseas is a premier global visa & study abroad portal offering AI-driven university admissions, IELTS/PTE/GRE coaching, education loan assistance, visit visas, and permanent residency (PR) for USA, UK, Canada, Australia, Germany & Europe.',
   keywords: [
     'ZeneeAI Overseas',
     'Study Visa',
@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     'Immigration Consultants',
   ],
   openGraph: {
-    title: 'ZeneeAI Overseas — Premium Global Mobility, Study Abroad & Visa Processing',
+    title: 'ZeneeAI Overseas — Premium Global Mobility & Visa Processing',
     description:
       'AI-Powered profile assessment, 99.2% visa approval rate, IELTS/PTE/GRE exam coaching, education loan support, and institutional tie-ups worldwide.',
-    url: 'https://zeneeai.com/overseas',
+    url: 'https://overseas.zeneeai.com',
     siteName: 'ZeneeAI Overseas',
     type: 'website',
   },
@@ -48,8 +48,8 @@ export default function OverseasPage() {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
     name: 'ZeneeAI Overseas',
-    url: 'https://zeneeai.com/overseas',
-    logo: 'https://zeneeai.com/favicon.ico',
+    url: 'https://overseas.zeneeai.com',
+    logo: 'https://overseas.zeneeai.com/images/overseas/zeneeai_overseas_logo.png',
     description: 'International study visa admissions, exam coaching (IELTS/PTE/GRE), education loan support, visitor visa filing, and permanent residency processing.',
     contactPoint: {
       '@type': 'ContactPoint',

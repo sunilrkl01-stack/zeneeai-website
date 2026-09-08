@@ -154,7 +154,7 @@ export const OverseasFooter: React.FC = () => {
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> Verified Legal Processing
             </span>
             <Link href="/" className="text-cyan-300 hover:underline">
-              zeneeai.com/overseas
+              overseas.zeneeai.com
             </Link>
           </div>
         </div>
