@@ -23,17 +23,21 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="lg:col-span-6 space-y-6 text-center lg:text-left"
           >
-            {/* Eyebrow Badge */}
+            {/* Eyebrow Badge & Overseas Redirect Link */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#121624] border border-[#FF6B00]/30 shadow-[0_0_15px_rgba(255,107,0,0.15)]"
+              className="flex flex-wrap items-center justify-center lg:justify-start gap-2"
             >
-              <Sparkles className="w-3.5 h-3.5 text-[#FF6B00]" />
-              <span className="text-xs font-semibold tracking-widest text-slate-300 uppercase">
-                INTELLIGENT TECHNOLOGY • DIGITAL INNOVATION • FUTURE READY
-              </span>
+              <Link
+                href="/overseas"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#FF6B00]/20 via-[#1E3A8A]/40 to-cyan-500/20 border border-cyan-500/40 text-cyan-200 text-xs font-bold shadow-[0_0_20px_rgba(6,182,212,0.25)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all group"
+              >
+                <span className="w-2 h-2 rounded-full bg-[#FF6B00] animate-pulse" />
+                <span>Introducing <strong className="text-white">ZeneeAI Overseas</strong> — Global Visas, Study Abroad & PR</span>
+                <ArrowRight className="w-3.5 h-3.5 text-cyan-400 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </motion.div>
 
             {/* Main Headline */}
@@ -49,7 +53,7 @@ export const Hero: React.FC = () => {
 
             {/* Supporting Subtext */}
             <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              ZeneeAI builds intelligent digital products and scalable technology solutions across AI, FinTech, mobility and enterprise technology.
+              ZeneeAI builds intelligent digital products and scalable technology solutions across AI, FinTech, mobility, global immigration, and enterprise technology.
             </p>
 
             {/* CTA Action Buttons */}
@@ -57,22 +61,29 @@ export const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+              className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3"
             >
               <Link
                 href="/#products"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-7 py-3.5 rounded-full bg-[#FF6B00] hover:bg-[#FF8533] text-white text-base font-semibold shadow-[0_0_30px_rgba(255,107,0,0.45)] hover:shadow-[0_0_40px_rgba(255,107,0,0.7)] transition-all duration-300 transform hover:-translate-y-0.5"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 py-3.5 rounded-full bg-[#FF6B00] hover:bg-[#FF8533] text-white text-sm font-semibold shadow-[0_0_30px_rgba(255,107,0,0.45)] hover:shadow-[0_0_40px_rgba(255,107,0,0.7)] transition-all duration-300 transform hover:-translate-y-0.5"
               >
-                <span>Explore Our Products</span>
+                <span>Explore Products</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
               <Link
-                href="/contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-[#121624]/80 hover:bg-[#1A2033] border border-white/15 text-white text-base font-semibold transition-all duration-300 hover:border-[#FF6B00]/40"
+                href="/overseas"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-gradient-to-r from-blue-950 to-slate-900 border border-cyan-500/40 text-cyan-300 text-sm font-bold shadow-[0_0_20px_rgba(6,182,212,0.25)] hover:shadow-[0_0_35px_rgba(6,182,212,0.5)] transition-all duration-300 hover:border-cyan-400"
               >
-                <span>Talk to ZeneeAI</span>
-                <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-white" />
+                <span>ZeneeAI Overseas</span>
+                <ArrowRight className="w-4 h-4 text-cyan-400" />
+              </Link>
+
+              <Link
+                href="/contact"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-[#121624]/80 hover:bg-[#1A2033] border border-white/15 text-slate-300 text-sm font-semibold transition-all duration-300 hover:border-[#FF6B00]/40"
+              >
+                <span>Talk to Us</span>
               </Link>
             </motion.div>
           </motion.div>

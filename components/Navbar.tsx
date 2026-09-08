@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/#about' },
   { name: 'Products', href: '/#products' },
+  { name: 'ZeneeAI Overseas', href: '/overseas', isNew: true },
   { name: 'Solutions', href: '/#solutions' },
   { name: 'AI & Innovation', href: '/#ai' },
   { name: 'Careers', href: '/careers' },
@@ -57,13 +58,20 @@ export const Navbar: React.FC = () => {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
+                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
                     isActive
                       ? 'text-white bg-white/10 shadow-sm'
+                      : link.isNew
+                      ? 'text-cyan-300 hover:text-white bg-cyan-500/10 border border-cyan-500/30'
                       : 'text-slate-300 hover:text-white hover:bg-white/5'
                   }`}
                 >
-                  {link.name}
+                  <span>{link.name}</span>
+                  {link.isNew && (
+                    <span className="text-[10px] font-bold font-mono px-1.5 py-0.2 bg-[#FF6B00] text-white rounded-full uppercase">
+                      NEW
+                    </span>
+                  )}
                 </Link>
               );
             })}

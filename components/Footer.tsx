@@ -28,18 +28,25 @@ export const Footer: React.FC = () => {
             {/* Direct Contact Links */}
             <div className="pt-3 space-y-2 text-sm">
               <a
-                href="mailto:founder@zeneeai.com"
-                className="flex items-center gap-2.5 text-slate-300 hover:text-[#FF6B00] transition-colors"
+                href="mailto:admissions@zeneeai.com"
+                className="flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors group"
               >
                 <Mail className="w-4 h-4 text-[#FF6B00]" />
-                <span>founder@zeneeai.com</span>
+                <span className="font-bold text-[#FF8533] group-hover:text-[#FF6B00] transition-colors">admissions@zeneeai.com</span>
+              </a>
+              <a
+                href="mailto:founder@zeneeai.com"
+                className="flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors group"
+              >
+                <Mail className="w-4 h-4 text-[#FF6B00]" />
+                <span className="font-semibold text-slate-300 group-hover:text-white transition-colors">founder@zeneeai.com</span>
               </a>
               <a
                 href="tel:+919392616336"
-                className="flex items-center gap-2.5 text-slate-300 hover:text-[#FF6B00] transition-colors"
+                className="flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors group"
               >
-                <Phone className="w-4 h-4 text-[#FF6B00]" />
-                <span>+91 93926 16336</span>
+                <Phone className="w-4 h-4 text-emerald-400" />
+                <span className="font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">+91 93926 16336</span>
               </a>
             </div>
           </div>
@@ -50,9 +57,15 @@ export const Footer: React.FC = () => {
             {/* Column 1: Products */}
             <div className="space-y-3">
               <h4 className="text-sm font-bold uppercase tracking-wider text-white">
-                Products
+                Products & Services
               </h4>
               <ul className="space-y-2 text-sm">
+                <li>
+                  <Link href="/overseas" className="hover:text-cyan-300 font-semibold text-[#FF6B00] flex items-center gap-1.5 transition-colors">
+                    <span>ZeneeAI Overseas</span>
+                    <span className="text-[9px] font-mono px-1 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">NEW</span>
+                  </Link>
+                </li>
                 <li>
                   <Link href="/products/zeneepay" className="hover:text-white transition-colors">
                     ZeneePay
