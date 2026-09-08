@@ -53,7 +53,7 @@ export default function OverseasPage() {
     description: 'International study visa admissions, exam coaching (IELTS/PTE/GRE), education loan support, visitor visa filing, and permanent residency processing.',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+91-9392616336',
+      telephone: '+91-8309765978',
       contactType: 'customer service',
       areaServed: 'Worldwide',
       availableLanguage: ['English'],

@@ -11,7 +11,7 @@ const NAV_LINKS = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/#about' },
   { name: 'Products', href: '/#products' },
-  { name: 'ZeneeAI Overseas', href: '/overseas', isNew: true },
+  { name: 'ZeneeAI Overseas', href: 'https://overseas.zeneeai.com', isNew: true, isExternal: true },
   { name: 'Solutions', href: '/#solutions' },
   { name: 'AI & Innovation', href: '/#ai' },
   { name: 'Careers', href: '/careers' },

@@ -37,11 +37,11 @@ export const OverseasFooter: React.FC = () => {
                 <span className="font-bold text-[#FF8533] group-hover:text-[#FF6B00] transition-colors">admissions@zeneeai.com</span>
               </a>
               <a
-                href="tel:+919392616336"
+                href="tel:+918309765978"
                 className="flex items-center gap-2.5 text-slate-300 hover:text-white transition-colors group"
               >
                 <Phone className="w-4 h-4 text-emerald-400" />
-                <span className="font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">+91 93926 16336</span>
+                <span className="font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">+91 83097 65978</span>
               </a>
             </div>
           </div>

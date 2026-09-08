@@ -7,7 +7,7 @@ export const WhatsAppCTA: React.FC = () => {
   const whatsappMessage = encodeURIComponent(
     "Hi ZeneeAI Overseas! I would like an instant profile evaluation for visa processing (Study / Visit / PR)."
   );
-  const whatsappUrl = `https://wa.me/919392616336?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/918309765978?text=${whatsappMessage}`;
 
   return (
     <>

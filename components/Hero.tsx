@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
               className="flex flex-wrap items-center justify-center lg:justify-start gap-2"
             >
               <Link
-                href="/overseas"
+                href="https://overseas.zeneeai.com"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#FF6B00]/20 via-[#1E3A8A]/40 to-cyan-500/20 border border-cyan-500/40 text-cyan-200 text-xs font-bold shadow-[0_0_20px_rgba(6,182,212,0.25)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all group"
               >
                 <span className="w-2 h-2 rounded-full bg-[#FF6B00] animate-pulse" />
@@ -72,7 +72,7 @@ export const Hero: React.FC = () => {
               </Link>
 
               <Link
-                href="/overseas"
+                href="https://overseas.zeneeai.com"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-gradient-to-r from-blue-950 to-slate-900 border border-cyan-500/40 text-cyan-300 text-sm font-bold shadow-[0_0_20px_rgba(6,182,212,0.25)] hover:shadow-[0_0_35px_rgba(6,182,212,0.5)] transition-all duration-300 hover:border-cyan-400"
               >
                 <span>ZeneeAI Overseas</span>

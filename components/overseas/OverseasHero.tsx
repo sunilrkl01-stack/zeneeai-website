@@ -23,7 +23,7 @@ export const OverseasHero: React.FC = () => {
   const whatsappMessage = encodeURIComponent(
     "Hi ZeneeAI Overseas! I would like to check my visa eligibility (Study / Visit / PR)."
   );
-  const whatsappUrl = `https://wa.me/919392616336?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/918309765978?text=${whatsappMessage}`;
 
   return (
     <section className="relative min-h-[90vh] pt-32 pb-20 flex items-center bg-[#050711] overflow-hidden">

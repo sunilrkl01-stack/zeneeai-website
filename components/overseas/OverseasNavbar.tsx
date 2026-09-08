@@ -35,7 +35,7 @@ export const OverseasNavbar: React.FC = () => {
   const whatsappMessage = encodeURIComponent(
     "Hi ZeneeAI Overseas! I would like to inquire about visa processing services."
   );
-  const whatsappUrl = `https://wa.me/919392616336?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/918309765978?text=${whatsappMessage}`;
 
   return (
     <header

@@ -104,7 +104,7 @@ export const ProfileAssessmentForm: React.FC = () => {
       `• Work Exp: ${formData.workExperience}\n` +
       `Please provide my detailed visa consultation & roadmap.`
   );
-  const whatsappUrl = `https://wa.me/919392616336?text=${whatsappQueryText}`;
+  const whatsappUrl = `https://wa.me/918309765978?text=${whatsappQueryText}`;
 
   return (
     <section id="assessment" className="relative py-24 bg-[#050711] overflow-hidden">

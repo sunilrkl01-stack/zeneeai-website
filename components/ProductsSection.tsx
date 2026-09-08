@@ -243,7 +243,7 @@ export const ProductsSection: React.FC = () => {
             {/* Product Card Footer CTA — Redirect to Overseas Website */}
             <div className="pt-6 relative z-10 border-t border-white/10 mt-6">
               <Link
-                href="/overseas"
+                href="https://overseas.zeneeai.com"
                 className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-gradient-to-r from-[#FF6B00] via-[#FF8533] to-cyan-500 text-white font-bold text-xs shadow-[0_0_20px_rgba(255,107,0,0.4)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.6)]"
               >
                 <span>Visit ZeneeAI Overseas Site</span>
